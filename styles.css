@@ -21,7 +21,7 @@ html {
 body {
   margin: 0;
   color: var(--ink);
-  font-family: "DM Sans",Arial,sans-serif;
+  font-family: "DM Sans", Arial, sans-serif;
 }
 
 a {
@@ -30,7 +30,7 @@ a {
 }
 
 .wrap {
-  width: min(1160px,calc(100% - 40px));
+  width: min(1160px, calc(100% - 40px));
   margin: auto;
 }
 
@@ -87,7 +87,8 @@ a {
   background: white;
 }
 
-button,.button {
+button,
+.button {
   border: 0;
   background: var(--orange);
   color: white;
@@ -98,7 +99,8 @@ button,.button {
   display: inline-block;
 }
 
-button:hover,.button:hover {
+button:hover,
+.button:hover {
   filter: brightness(.93);
 }
 
@@ -131,7 +133,7 @@ button:hover,.button:hover {
   position: absolute;
   inset: 0;
   z-index: -1;
-  background: linear-gradient(92deg,#09233ff5 0%,#09233fe8 48%,#09233fbd 100%);
+  background: linear-gradient(92deg, #09233ff5 0%, #09233fe8 48%, #09233fbd 100%);
 }
 
 .heroGrid {
@@ -150,14 +152,15 @@ button:hover,.button:hover {
   font-size: 12px;
 }
 
-.hero h1,.section h2 {
-  font-family: "Playfair Display",Georgia,serif;
+.hero h1,
+.section h2 {
+  font-family: "Playfair Display", Georgia, serif;
   font-weight: 600;
   line-height: 1.15;
 }
 
 .hero h1 {
-  font-size: clamp(2.9rem,5vw,5rem);
+  font-size: clamp(2.9rem, 5vw, 5rem);
   margin: 22px 0;
 }
 
@@ -212,7 +215,7 @@ button:hover,.button:hover {
 }
 
 .section h2 {
-  font-size: clamp(2rem,3.2vw,3.15rem);
+  font-size: clamp(2rem, 3.2vw, 3.15rem);
   margin: 12px 0 16px;
 }
 
@@ -223,14 +226,20 @@ button:hover,.button:hover {
   line-height: 1.85;
 }
 
-.statgrid,.cards,.productGrid,.deptGrid {
+.statgrid,
+.cards,
+.productGrid,
+.deptGrid {
   display: grid;
-  grid-template-columns: repeat(4,1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 16px;
   margin-top: 30px;
 }
 
-.stat,.card,.product,.dept {
+.stat,
+.card,
+.product,
+.dept {
   border: 1px solid var(--line);
   border-radius: 12px;
   padding: 22px;
@@ -265,7 +274,7 @@ button:hover,.button:hover {
 
 .timeline {
   display: grid;
-  grid-template-columns: repeat(7,1fr);
+  grid-template-columns: repeat(7, 1fr);
   gap: 10px;
   margin-top: 30px;
 }
@@ -287,7 +296,7 @@ button:hover,.button:hover {
 
 .capacity {
   display: grid;
-  grid-template-columns: repeat(3,1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 18px;
   margin-top: 30px;
 }
@@ -297,7 +306,7 @@ button:hover,.button:hover {
 }
 
 .capacity strong {
-  font-size: clamp(30px,4vw,47px);
+  font-size: clamp(30px, 4vw, 47px);
   color: var(--navy);
   display: block;
   margin: 15px 0 7px;
@@ -316,7 +325,7 @@ button:hover,.button:hover {
 
 .market {
   display: grid;
-  grid-template-columns: repeat(3,1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 14px;
   margin-top: 27px;
 }
@@ -332,7 +341,7 @@ button:hover,.button:hover {
   display: flex;
   align-items: end;
   font-weight: 700;
-  background: linear-gradient(135deg,#eff4f7,#fff);
+  background: linear-gradient(135deg, #eff4f7, #fff);
 }
 
 .equipBox {
@@ -349,7 +358,8 @@ table {
   font-size: 13px;
 }
 
-th,td {
+th,
+td {
   padding: 12px 16px;
   text-align: left;
   border-bottom: 1px solid var(--line);
@@ -368,7 +378,7 @@ td:last-child {
 
 .galleryGrid {
   display: grid;
-  grid-template-columns: repeat(3,1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 12px;
   margin-top: 25px;
 }
@@ -382,7 +392,7 @@ td:last-child {
 
 .dept {
   min-height: 130px;
-  background: repeating-linear-gradient(-45deg,#f8fafb,#f8fafb 10px,#f1f5f7 10px,#f1f5f7 20px);
+  background: repeating-linear-gradient(-45deg, #f8fafb, #f8fafb 10px, #f1f5f7 10px, #f1f5f7 20px);
 }
 
 .dept strong {
@@ -433,7 +443,9 @@ label {
   font-size: 13px;
 }
 
-input,select,textarea {
+input,
+select,
+textarea {
   font: inherit;
   padding: 13px;
   border: 1px solid #ccd8df;
@@ -480,6 +492,7 @@ footer {
     flex-wrap: wrap;
     padding: 10px 0;
   }
+
   .links {
     order: 3;
     width: 100%;
@@ -487,20 +500,29 @@ footer {
     flex-wrap: nowrap;
     padding-bottom: 9px;
   }
+
   .links a {
     white-space: nowrap;
   }
-  .heroGrid,.twocol,.contactGrid {
+
+  .heroGrid,
+  .twocol,
+  .contactGrid {
     grid-template-columns: 1fr;
   }
+
   .heroPhotos {
     display: none;
   }
+
   .timeline {
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(4, 1fr);
   }
-  .statgrid,.productGrid,.deptGrid {
-    grid-template-columns: repeat(2,1fr);
+
+  .statgrid,
+  .productGrid,
+  .deptGrid {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
@@ -508,30 +530,45 @@ footer {
   .heroGrid {
     padding: 60px 0;
   }
+
   .hero h1 {
     font-size: 2.7rem;
   }
+
   .section {
     padding: 55px 0;
   }
-  .statgrid,.cards,.capacity,.market,.productGrid,.deptGrid,.galleryGrid {
+
+  .statgrid,
+  .cards,
+  .capacity,
+  .market,
+  .productGrid,
+  .deptGrid,
+  .galleryGrid {
     grid-template-columns: 1fr 1fr;
   }
+
   .galleryGrid img {
     height: 155px;
   }
+
   .capacity {
     grid-template-columns: 1fr;
   }
+
   .timeline {
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
+
   .contactInfo {
     padding: 24px;
   }
+
   .links {
     gap: 12px;
   }
+
   .links a {
     font-size: 11px;
   }
@@ -654,8 +691,8 @@ footer {
   z-index: 1000;
   background: #07101cf5;
   display: grid;
-  grid-template-columns: 60px minmax(0,1fr) 60px;
-  grid-template-rows: 70px minmax(0,1fr);
+  grid-template-columns: 60px minmax(0, 1fr) 60px;
+  grid-template-rows: 70px minmax(0, 1fr);
   align-items: center;
   justify-items: center;
   padding: 10px 20px 24px;
@@ -736,24 +773,30 @@ footer {
   .product-photo-wrap {
     height: 185px;
   }
+
   .photo-arrow {
     width: 29px;
     height: 36px;
   }
+
   .product-caption {
     padding: 11px;
   }
+
   .product-caption strong {
     font-size: 13px;
   }
+
   .photo-viewer {
-    grid-template-columns: 36px minmax(0,1fr) 36px;
+    grid-template-columns: 36px minmax(0, 1fr) 36px;
     padding: 8px 6px 20px;
   }
+
   .viewer-control {
     width: 32px;
     height: 42px;
   }
+
   .viewer-image {
     max-height: calc(100dvh - 120px);
   }
@@ -797,12 +840,14 @@ footer {
     grid-template-columns: 36px minmax(0, 1fr) 36px;
     padding: 8px 6px 16px;
   }
+
   .viewer-image {
     width: 100%;
     height: 100%;
     max-height: calc(100dvh - 105px);
     object-fit: contain;
   }
+
   .viewer-control {
     width: 32px;
     height: 42px;
@@ -875,13 +920,15 @@ footer {
   padding: 4px 10px;
 }
 
-@media (hover: none), (pointer: coarse) {
+@media (hover: none),
+(pointer: coarse) {
   .product-photo-wrap .photo-arrow,
 
   .product-photo-wrap .zoom-indicator {
     opacity: 1;
     visibility: visible;
   }
+
   .photo-arrow {
     width: 30px;
     height: 30px;
@@ -944,15 +991,11 @@ footer {
   content: "";
   position: absolute;
   inset: 0;
-  background: linear-gradient(
+  background: linear-gradient(180deg,
 
-    180deg,
+      rgba(13, 41, 68, 0.15),
 
-    rgba(13, 41, 68, 0.15),
-
-    rgba(13, 41, 68, 0.85)
-
-  );
+      rgba(13, 41, 68, 0.85));
   z-index: 0;
 }
 
@@ -1052,10 +1095,12 @@ footer {
   .buyers-section {
     padding: 55px 0;
   }
+
   .buyers-grid {
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
   }
+
   .buyer-card {
     min-height: 85px;
     padding: 12px;
@@ -1179,14 +1224,17 @@ footer {
   .timeline {
     gap: 12px;
   }
+
   .timeline .step {
     min-height: 140px;
     padding: 20px 16px;
     font-size: 13px;
   }
+
   .timeline .step b {
     font-size: 25px;
   }
+
   .timeline .step::after {
     font-size: 55px;
   }
@@ -1203,15 +1251,11 @@ footer {
   isolation: isolate;
   overflow: hidden;
   background-color: #102c48;
-  background-image: linear-gradient(
-
-      90deg,
+  background-image: linear-gradient(90deg,
 
       rgba(8, 29, 49, 0.50),
 
-      rgba(8, 29, 49, 0.32)
-
-    ),
+      rgba(8, 29, 49, 0.32)),
 
     url("assets/factory-10.jpg");
   background-size: cover;
@@ -1285,15 +1329,11 @@ footer {
   left: 0;
   width: 100%;
   height: 3px;
-  background: linear-gradient(
+  background: linear-gradient(90deg,
 
-    90deg,
+      #e47b33,
 
-    #e47b33,
-
-    #f7b986
-
-  );
+      #f7b986);
 }
 
 #manufacturing .timeline .step b {
@@ -1327,6 +1367,7 @@ footer {
     padding: 80px 0;
     background-position: center;
   }
+
   #manufacturing .timeline {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -1337,17 +1378,21 @@ footer {
     padding: 65px 0;
     background-position: center;
   }
+
   #manufacturing .timeline {
     gap: 12px;
   }
+
   #manufacturing .timeline .step {
     min-height: 140px;
     padding: 18px 15px;
     font-size: 13px;
   }
+
   #manufacturing .timeline .step b {
     font-size: 25px;
   }
+
   #manufacturing .timeline .step::after {
     font-size: 48px;
   }
@@ -1386,15 +1431,11 @@ footer {
   isolation: isolate;
   overflow: hidden;
   background-color: #102c48;
-  background-image: linear-gradient(
-
-      90deg,
+  background-image: linear-gradient(90deg,
 
       rgba(8, 29, 49, 0.58),
 
-      rgba(8, 29, 49, 0.40)
-
-    ),
+      rgba(8, 29, 49, 0.40)),
 
     url("assets/factory-11.jpg");
   background-size: cover;
@@ -1543,6 +1584,7 @@ footer {
 }
 
 @media (prefers-reduced-motion: reduce) {
+
   #capacity .capacity .card,
   #capacity .statgrid .stat {
     transition: none;
