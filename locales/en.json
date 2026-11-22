@@ -83,7 +83,7 @@
   ],
   "pending": "Department photos to be added",
   "rfqTitle": "Tell us about your next production project",
-  "rfqDesc": "Share your product category, approximate quantity and requirements. The form currently prepares an email; it does not submit to a server.",
+  "rfqDesc": "Share your product category, estimated order quantity and manufacturing requirements. Our team will review your inquiry and contact you directly.",
   "fields": [
     "Company name",
     "Work email",
@@ -91,7 +91,9 @@
     "Estimated quantity (pieces)",
     "Your message / specifications"
   ],
-  "submit": "Prepare email inquiry",
+  
+"submit": "Submit RFQ"
+
   "contact": "Contact",
   "address": "Trung Truong, Dien Chau, Nghe An Province, Vietnam",
   "director": "Director",

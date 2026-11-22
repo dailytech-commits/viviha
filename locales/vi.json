@@ -83,7 +83,7 @@
   ],
   "pending": "Sẽ bổ sung ảnh bộ phận",
   "rfqTitle": "Hãy chia sẻ dự án gia công của bạn",
-  "rfqDesc": "Gửi loại hàng, số lượng dự kiến và yêu cầu sản xuất. Form hiện tạo email, chưa gửi dữ liệu tới máy chủ.",
+  "rfqDesc": "Vui lòng cung cấp loại sản phẩm, số lượng đặt hàng dự kiến và yêu cầu gia công. Đội ngũ của chúng tôi sẽ xem xét và liên hệ trực tiếp với quý khách.",
   "fields": [
     "Tên doanh nghiệp",
     "Email công việc",
@@ -91,7 +91,9 @@
     "Số lượng dự kiến (sản phẩm)",
     "Yêu cầu / thông số sản phẩm"
   ],
-  "submit": "Soạn email yêu cầu báo giá",
+  
+"submit": "Gửi yêu cầu báo giá"
+
   "notice": "",
   "contact": "Liên hệ",
   "address": "Trung Trường, Diễn Châu, Nghệ An, Việt Nam",
