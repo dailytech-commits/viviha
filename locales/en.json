@@ -1,0 +1,103 @@
+{
+  "nav": [
+    "Home",
+    "About",
+    "Manufacturing",
+    "Capacity",
+    "Products",
+    "Quality",
+    "Gallery",
+    "Contact"
+  ],
+  "eyebrow": "VIET HAN CO., LTD. · VIVIHA",
+  "hero": "Manufacturing excellence for global fashion.",
+  "heroSub": "A Vietnam-based apparel manufacturer serving buyers across South Korea, the United States and other international markets.",
+  "cta": "Start Your Project",
+  "view": "Explore Capabilities",
+  "aboutTitle": "Built on experience. Driven by craftsmanship.",
+  "aboutText": "Viet Han Co., Ltd. operates in Trung Truong, Dien Chau, Nghe An, Vietnam. With around a decade of manufacturing experience, our team supports a broad portfolio of apparel categories and export-oriented production.",
+  "facts": [
+    "Years of experience",
+    "Total workforce (profile)",
+    "Production lines",
+    "Export destination groups"
+  ],
+  "manufacturingTitle": "From pattern to shipment",
+  "manufacturingSub": "An established production workflow with dedicated sample, CAD, cutting, sewing, QA/QC, finishing and warehouse functions.",
+  "stages": [
+    "Materials",
+    "Sampling & patterns",
+    "Cutting",
+    "Sewing",
+    "Washing (if required)",
+    "Finishing",
+    "Export"
+  ],
+  "capTitle": "Documented production capacity",
+  "capIntro": "Monthly capacities shown are separate product scenarios across four production lines, not simultaneous or additive outputs. Lead times depend on specifications and scheduling.",
+  "capacityNames": [
+    "Jackets",
+    "Dresses & blouses",
+    "Knitwear"
+  ],
+  "perMonth": "pieces / month",
+  "lineNote": "4 production lines (for each product scenario)",
+  "employee": "Workforce composition",
+  "equip": "Machinery inventory",
+  "equipNote": "Machinery and quantities listed in the May 2026 factory profile.",
+  "machine": "Machine / equipment",
+  "model": "Model / description",
+  "qty": "Qty",
+  "productsTitle": "Flexible apparel manufacturing",
+  "productsIntro": "Product categories represented in our factory profile. Discuss your specifications and required volume with our merchandising team.",
+  "products": [
+    "Vests & jackets",
+    "Dresses & skirts",
+    "Tops & blouses",
+    "Shirts",
+    "Pants",
+    "Uniforms",
+    "Knitwear",
+    "Coats & down jackets"
+  ],
+  "qualityTitle": "Quality built into the process",
+  "qualityText": "Our factory profile documents dedicated quality assurance and end-line quality control functions as part of production, alongside sample development and finishing.",
+  "exportTitle": "Export market mix",
+  "market": [
+    "South Korea",
+    "United States",
+    "EU & other markets"
+  ],
+  "galleryTitle": "Inside our factory",
+  "galleryIntro": "",
+  "deptTitle": "Department photo collection — coming soon",
+  "depts": [
+    "Warehouse",
+    "Sample room",
+    "CAD / pattern room",
+    "Cutting room",
+    "Production lines",
+    "End-line quality control",
+    "Special line",
+    "Finishing"
+  ],
+  "pending": "Department photos to be added",
+  "rfqTitle": "Tell us about your next production project",
+  "rfqDesc": "Share your product category, approximate quantity and requirements. The form currently prepares an email; it does not submit to a server.",
+  "fields": [
+    "Company name",
+    "Work email",
+    "Product category",
+    "Estimated quantity (pieces)",
+    "Your message / specifications"
+  ],
+  "submit": "Prepare email inquiry",
+  "contact": "Contact",
+  "address": "Trung Truong, Dien Chau, Nghe An Province, Vietnam",
+  "director": "Director",
+  "vice": "Vice Director (as listed on profile overview)",
+  "contactNote": "Contacts follow the May 2026 factory profile.",
+  "foot": "Factory profile: May 2026.",
+  "all": "All product categories",
+  "menu": "Menu"
+}
