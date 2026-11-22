@@ -67,6 +67,52 @@ langEl.addEventListener('change', e => render(e.target.value));
 /* VIET HAN - RFQ Formspree Integration */
 
 const rfqForm = document.getElementById('rfq');
+
+/* RFQ - Multilingual form validation */
+
+const validationMessages = {
+  en: {
+    required: "Please fill out this field.",
+    email: "Please enter a valid email address.",
+    quantity: "Please enter a quantity of at least 1."
+  },
+  vi: {
+    required: "Vui lòng điền vào trường này.",
+    email: "Vui lòng nhập địa chỉ email hợp lệ.",
+    quantity: "Vui lòng nhập số lượng tối thiểu là 1."
+  },
+  ko: {
+    required: "필수 입력 항목입니다.",
+    email: "올바른 이메일 주소를 입력해 주세요.",
+    quantity: "수량은 1개 이상 입력해 주세요."
+  }
+};
+
+rfqForm.querySelectorAll("input, select, textarea").forEach((field) => {
+
+  field.addEventListener("invalid", () => {
+    const messages = validationMessages[selected] || validationMessages.en;
+
+    field.setCustomValidity("");
+
+    if (field.validity.valueMissing) {
+      field.setCustomValidity(messages.required);
+    } else if (field.validity.typeMismatch) {
+      field.setCustomValidity(messages.email);
+    } else if (field.validity.rangeUnderflow) {
+      field.setCustomValidity(messages.quantity);
+    }
+  });
+
+  field.addEventListener("input", () => {
+    field.setCustomValidity("");
+  });
+
+  field.addEventListener("change", () => {
+    field.setCustomValidity("");
+  });
+});
+
 const rfqButton = document.getElementById('send');
 
 const formspreeEndpoint = 'https://formspree.io/f/mrpqobqo';
